@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/para-siempre.png">
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://kit.fontawesome.com/d94ee5c872.js" crossorigin="anonymous"></script>
+    <title>Mis Tareas app</title>
+
+    <meta name="keywords" content="app de tareas, to do list, recordatorios, anotaciones, mi lista, tareas, pendientes">
+    <meta name="author" content="Agustina Santos">
+    <meta name="copyright" content="Santos 2023">
+    <meta name="title" content="Mis Tareas app">
+    <meta name="description" content="App para anotar tareas o actividades que no querés olvidar">
+
+  </head>
+  <body>
+    <header>
+      <img src="images/para-siempre.png" alt="">
+      <a href="#">Cerrar Sesión</a>
+    </header>
+    <section class="section">
+      <div class="container">
+        <div class="perfil">
+          <div id="fecha"></div>
+          <h1>Hola!</h1>
+          <span>¡Vamos a cumplir tus metas!</span>
+        </div>
+        <div class="agregar-tarea">
+          <input type="text" id="input" placeholder="Agrega tu tarea" />
+          <i id="enter" class="fas fa-plus-circle"></i>
+        </div>
+        <div id="advertencia">
+        </div>
+        <div class="seccion-tarea">
+          <!-- <h3 class="subtitulo"></h3> -->
+          <ul id="lista">
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Soy un footer pequeñito</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
